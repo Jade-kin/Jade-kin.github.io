@@ -1,0 +1,22 @@
+baseURL = "http://Jade-kin.github.io/"
+title = "Mr.King Hugo Blog"
+theme="casper"
+languageCode = "zh_CN" 
+
+paginate = 5
+DisqusShortname = "Mr.King"
+canonifyurls = true 
+
+[params]
+  description = "知其雄，守其雌，为天下溪。" 
+  cover = "images/home-bg.jpg" 
+  author = "Mr.King" 
+  authorlocation = "ShangHai, China"
+  githubName = "Jade-kin" 
+  hideHUGOSupport = false
+
+[[menu.main]]
+  name = "Mr.King Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
