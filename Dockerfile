@@ -6,7 +6,3 @@ WORKDIR /usr/share/blog
 
 # 暴露端口
 EXPOSE 1313
-
-CMD hugo 
-
-CMD hugo server  --bind=0.0.0.0 -D
