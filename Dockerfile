@@ -1,4 +1,4 @@
-FROM registry.saas.hand-china.com/tools/hugo:v0.37.1
+FROM registry.saas.hand-china.com/tools/hugo:0.40.3
 
 COPY Jade-kin.github.io/ /usr/share/blog
 
